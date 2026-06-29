@@ -36,9 +36,8 @@ mkdocs serve
 |------|------|
 | 序 | `docs/序-为什么写质量数据地图.md` |
 | 第 0 章 | `docs/00-质量数据为什么总混在一个格子里.md` |
-| 番外 | `docs/extras/物理指标和指标.md` |
 
-新章在公众号发布后约 **一周** 内同步到此仓。清单见 [`published.yaml`](published.yaml)。
+番外在公众号 **周五发布** 后再同步。清单见 [`published.yaml`](published.yaml)。
 
 ---
 

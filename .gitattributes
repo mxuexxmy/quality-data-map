@@ -1,0 +1,3 @@
+*.md text eol=lf
+mkdocs.yml text eol=lf
+published.yaml text eol=lf
