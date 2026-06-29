@@ -1,0 +1,48 @@
+site_name: 质量数据地图
+site_description: 工业制造质量管理入门地图 · Quality Data Map
+site_url: https://mxuexxmy.github.io/quality-data-map/
+repo_url: https://github.com/mxuexxmy/quality-data-map
+repo_name: mxuexxmy/quality-data-map
+copyright: Copyright &copy; 玄兴梦影 · CC BY-NC 4.0
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: slate
+      primary: blue grey
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: 浅色模式
+    - scheme: default
+      primary: blue grey
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: 深色模式
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - 首页: index.md
+  - 序 · 为什么写这本书: 序-为什么写质量数据地图.md
+  - 第 0 章 · 开篇: 00-质量数据为什么总混在一个格子里.md
+  - 番外:
+    - 物理指标和指标: extras/物理指标和指标.md

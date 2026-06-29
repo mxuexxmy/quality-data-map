@@ -1,0 +1,16 @@
+# 已发布章节清单（与公众号同步）
+
+# 网页版通常滞后公众号约一周
+sync_policy: lag_wechat_about_1_week
+
+chapters:
+  - docs/序-为什么写质量数据地图.md
+  - docs/00-质量数据为什么总混在一个格子里.md
+
+extras:
+  - docs/extras/物理指标和指标.md
+
+assets:
+  - docs/assets/序/
+  - docs/assets/00/
+  - docs/assets/番外/
